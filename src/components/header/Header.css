@@ -1,0 +1,77 @@
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    margin: 1.5% 10%;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px;
+    width: 200px;
+}
+
+nav {
+    background-color: #FFD700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chats-btn {
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.calls-btn {
+    background-color: white;
+    color: white;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signup-btn {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#cars{
+    border: none;
+    background-color: #FFD700;
+    font-size: 16px;
+}
+
+#cars:focus-visible{
+    outline: none;
+}
